@@ -1,7 +1,7 @@
 Package: proxyman.atlantis
 Name: atlantis
 Depends: mobilesubstrate, applist, preferenceloader, ${LIBSWIFT}
-Version: 0.0.1
+Version: 1.18.0
 Architecture: iphoneos-arm
 Description: http(s) intercepting for proxyman
 Maintainer: atlantis

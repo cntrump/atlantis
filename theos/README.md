@@ -1,18 +1,18 @@
 # Build and Use
 
+## First install and setup theos
+
 ```shell
-### First install and setup theos
-if [ ! -d /opt/theos ]; then
-  sudo git clone --recursive https://github.com/theos/theos.git /opt/theos
-fi
+git clone --recursive https://github.com/theos/theos.git /opt/theos
 
 export THEOS=/opt/theos
 export THEOS_DEVICE_IP=YouriPhoneIP
+```
 
-### Build tweak
-if [ ! -d atlantis ]; then
-  git clone https://github.com/cntrump/atlantis.git
-fi
+## Build tweak
+
+```shell
+git clone https://github.com/cntrump/atlantis.git
 
 pushd atlantis/theos
 
